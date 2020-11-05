@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--1 - Header con navegación del sitio (usando flexbox).
+        1.bis - Tiene que tener links y logo.
+        2- Sección de producto, estilo "card" -> (tickets del festival x ej) , imagen 50%  / texto 50%.
+        3- Sección galería / de imágenes o cards lo que quieren, usando GRID.
+        4 - Footer , again FLEXBOX.
+        5- Una pagina aparte para el login con un formulario en el centro del VIEWPORT.
+         (Obviusli, en el header vamos a tener el botón de login/register).
+        6- Pueden agregar cosas a gusto, secciones, etc.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ari-Paluzza-Home</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/leonvector.png" alt="logo" width="8%" class="logo"></a>
+            <ul class="navegador">
+                <li><a href="#Artista" >Artista</a></li>
+                <li><a href="#Escuchado">Lo Mas Escuchado</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="Sing-in.html">Reproductor de Music</a></li>
+                <li><a href="#Creador">Creador</a></li>
+            </ul>
+        </nav>
+        <h1>Wos-Ari-Paluzza</h1>
+        <iframe width="100%" height="505" src="https://www.youtube.com/embed/SANNBTVLZNY?start=14;autoplay=1
+" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </header>
+    <main>
+        <h2 id="Artista">El Artista</h2>
+        <div class="grid-container-1">
+            <div class="Area1">
+                <img src="img/WOS-perfil.jpg" alt="show" class="img-clas">
+                <div class="tex1">
+                    <p>Wos</p>
+                    <p class="parrafo">arrancó desde muy pequeño rapeando en las plazas y participando en competencias
+                        como El Quinto
+                        Escalón, donde ya
+                        demostraba un gran potencial y sobre todo mucho coraje. Pero fue en 2016 cuando demostró que su
+                        nivel estaba para
+                        mucho
+                        más que una plaza, ganando así varias fechas del Quinto Escalón, tirando acotes memorables, que
+                        se viralizaron mucho
+                        en
+                        las redes sociales y salió campeón de la fecha final, dejando en el camino a Dtoke en la primera
+                        ronda y derrotando
+                        en
+                        la final a Klan. Wos es uno de los que más veces logró ganar la competencia de El Quinto
+                        Escalón.</p>
+                    <button class="play">Play</button>
+                </div>
+            </div>
+            <div class="Area2">
+                <img src="img/Luna-park.jpg" alt="perfil" class="img-clas">
+                <div class="tex2">
+                    <p>Valentín Oliva</p>
+                    <p class="parrafo">
+                        También participó en otras competencias como The Fucking King en Córdoba donde se consagraría
+                        campeón o la Double AA en
+                        2018 en la cual en la edición en Chile cayó nuevamente con Aczino en octavos, pero que ganaría
+                        una semana después en
+                        Argentina,donde por primera vez logró derrotar a Aczino, esta vez en semifinales. En la Red Bull
+                        Batalla de los Gallos
+                        Internacional 2018 en su país Argentina, se coronó como campeón, tomandose revancha del año
+                        anterior en la final con
+                        Aczino.5​ En la FMS Argentina 2018 Wos también salió victorioso después de ganarle en la
+                        definición por el título en la
+                        última fecha a Papo.6​ También tuvo un papel protagonista en la película Las Vegas dirigida por
+                        Juan Villegas.7​
+                    </p>
+                    <button class="play">Play</button>
+                </div>
+            </div>
+            <div class="Area3">
+                <img src="img/Carrera-Wos.jpg" alt="run" class="img-clas">
+                <div class="tex3">
+                    <p>Carrera</p>
+                    <p class="parrafo">
+                        Actualmente en 2019 anunció su retiro de la FMS para desviar su atención a su carrera musical,
+                        sin embargo seguirá
+                        activo en otras competencias, como por ejemplo GodLevel, en la cual representó a Argentina junto
+                        a Papo y Trueno en la
+                        que quedaron subcampeones, y la final internacional de Red Bull 2019 en España, donde no pudo
+                        retener su título cayendo
+                        en octavos nuevamente contra Aczino luego de 2 replicas, en una batalla para el recuerdo.
+                    </p>
+                    <button class="play">Play</button>
+                </div>
+            </div>
+        </div>
+        <h3 id="Escuchado">Lo Mas Escuchado</h3>
+        <div class="grid-container-2">
+            <div class="are1">
+                <iframe width="100%" height="215" src="https://www.youtube.com/embed/MA5v9VNJ-2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                     picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="are2">
+                <iframe width="100%" height="215" Border="0" padding="0" src="https://www.youtube.com/embed/BZNtxpO9DoA"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+                     gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="are3">
+                <iframe width="100%" height="215" src="https://www.youtube.com/embed/AmNOfqeUFLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+                gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        <h3 id="galeria">Galería</h3>
+        <div class="galeria">
+            <div class="foto1">
+                <img src="img/foto5.jpg" alt="foto1">
+            </div>
+            <div class="foto2">
+                <img src="img/foto2.jpg" alt="foto2">
+            </div>
+            <div class="foto3">
+                <img src="img/foto3.jpg" alt="foto3">
+            </div>
+            <div class="foto4">
+                <img src="img/foto1.jpg" alt="foto4">
+            </div>
+            <div class="foto5">
+                <img src="img/foto4.jpg" alt="foto5">
+            </div>
+            <div class="foto6">
+                <img src="img/foto6.jpg" alt="foto6">
+            </div>
+        </div>
+
+    </main>
+    <footer id="Creador">
+        <div class="logoss">
+            <div class="foo_orden">
+                <img src="https://img.icons8.com/clouds/100/000000/instagram.png" />
+                <a href="https://www.instagram.com/wos.ds3/?hl=es-la" padding="0px 10px" text-decoration="none"> Ver
+                    mas</a>
+            </div>
+            <div class="foo_orden">
+            <img src="https://img.icons8.com/clouds/100/000000/twitter-circled.png"/>     
+           <a href="https://twitter.com/wosistas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                    padding="0px 10px" text-decoration="none"> Ver mas</a>
+            </div>
+            <div class="foo_orden">
+                <img src="https://img.icons8.com/clouds/100/000000/facebook-circled.png" />
+                <a href="https://www.facebook.com/Wos.DS3/" padding="0px 10px" text-decoration="none"> Ver mas</a>
+            </div>
+        </div>
+        <form action="post" class=" formulario">
+            <input type="text" placeholder="   Mas Novedades">
+            <button class="enviar">Enviar</button>
+        </form>
+        <div class="footer">
+            Derechos de autor:Creado por Ariel Alejandro Esquivel
+            <hr />
+            Nucba
+        </div>
+    </footer>
+</body>
+
+</html>

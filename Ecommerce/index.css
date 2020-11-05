@@ -1,0 +1,111 @@
+.nav{
+ background: rgb(81,227,123);
+background: linear-gradient(27deg, rgba(81,227,123,1) 0%, rgba(45,181,207,1) 30%, rgba(47,166,185,0.8715861344537815) 48%, rgba(83,240,156,1) 100%);
+}
+.nav li {
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+.nav li a{
+    color: #3c628a;
+}
+.page-footer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+    align-content: center;
+    width: 100%;    
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.la_caza{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blue{
+    background-color:#F5B7B1;
+}
+/*sing in*/
+section{
+    text-align: center;
+}
+img{
+    width: 20%;
+    text-align: center;
+}
+div{
+    font-size: 1em;
+}
+.olvide{
+    padding: 20px;
+}
+.Parrafo{
+    font-size: 16px;
+    font-family:monospace;
+    padding: 20px;
+}
+.input-input{
+    text-align: -webkit-center;
+}
+input{
+     display: block;
+    padding: 10px;
+    text-align: center;
+    border: 10px;
+}
+.boton{
+    padding:5px;
+}
+button{
+        padding: 7px 76px;
+        border-radius: 1mm;
+        background-color: blue;
+        color: white;
+        font-family:Verdana;
+        border: 0;
+
+}
+a{
+   text-decoration: none;
+    font-family: monospace;
+    color: black;
+}
+.olvide{
+    font-size:1em;
+    border-radius: 5mm;
+    display: inline-block;
+    padding: 6px 30px;
+    margin: 20px;
+    border: 1px solid #2b29299e;
+    background-color: white;
+}
+#sing-in{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+	align-content: center;
+}
+.img-f{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
